@@ -460,6 +460,31 @@ footer{
         cursor: pointer;
         background-color: lightseagreen;
 }
+@media(max-width:1300px) and (min-width:1101px){
+    .hero {
+        background-position: 6% center;
+    }
+    .img::after {
+        content: "";
+        position: absolute;
+        width: 37%;
+        height: 100%;
+        background-image: url(../img/img3.png);
+        background-repeat: no-repeat;
+        left: 360px;
+        top: 434px;
+    }
+    .menu-items__item:nth-child(3):after {
+        content: "";
+        position: absolute;
+        width: 29%;
+        height: 100%;
+        background-image: url(../img/img6.png);
+        background-repeat: no-repeat;
+        left: 186px;
+        top: -27px;
+    }
+}
 @media (max-width:1100px) and (min-width:769px){
     .hero {
         background-color: var(--header-color);
@@ -567,7 +592,7 @@ footer{
     .behind-list__item:nth-child(1):after {
         content: "";
         position: absolute;
-        width: 50%;
+        width: 40%;
         height: 100%;
         background-image: url(../img/img6.png);
         background-repeat: no-repeat;
@@ -577,7 +602,7 @@ footer{
     .behind-list__item:nth-child(2):after {
         content: "";
         position: absolute;
-        width: 50%;
+        width: 40%;
         height: 100%;
         background-image: url(../img/img5.png);
         background-repeat: no-repeat;
@@ -587,7 +612,7 @@ footer{
     .behind-list__item:nth-child(3):after {
         content: "";
         position: absolute;
-        width: 50%;
+        width: 40%;
         height: 100%;
         background-image: url(../img/img4.png);
         background-repeat: no-repeat;
@@ -600,6 +625,9 @@ footer{
     .container{
         margin: 0 auto;
         max-width: 700px;
+    }
+    .header-logo {
+        padding-right: 13%;
     }
     .hero {
         background-color: var(--header-color);
@@ -640,6 +668,12 @@ footer{
         text-transform: uppercase;
         max-width: 259px;
     }
+    .behind-list__item__img {
+        width: 345px;
+        height: 411px;
+        border-radius: 170px;
+        margin-right: 70px;
+    }
     .joy-info {
         display: flex;
         flex-direction: column-reverse;
@@ -649,6 +683,12 @@ footer{
         width: 100%;
         padding-left: 0;
         margin-right: 0; 
+    }
+    .behind-list__item__img2 {
+        width: 315px;
+        height: 247px;
+        border-radius: 200px;
+        margin-right: 70px;
     }
     .img {
         width: 100%;
@@ -707,7 +747,7 @@ footer{
     .behind-list__item:nth-child(1):after {
         content: "";
         position: absolute;
-        width: 50%;
+        width: 40%;
         height: 100%;
         background-image: url(../img/img6.png);
         background-repeat: no-repeat;
@@ -717,7 +757,7 @@ footer{
     .behind-list__item:nth-child(2):after {
         content: "";
         position: absolute;
-        width: 50%;
+        width: 40%;
         height: 100%;
         background-image: url(../img/img5.png);
         background-repeat: no-repeat;
@@ -727,18 +767,27 @@ footer{
     .behind-list__item:nth-child(3):after {
         content: "";
         position: absolute;
-        width: 50%;
+        width: 40%;
         height: 100%;
         background-image: url(../img/img4.png);
         background-repeat: no-repeat;
         left: 344px;
         top: -27px;
     }
+    #name{
+        width: 86%;
+    }
+    #text{
+        width: 86%;
+    }
+    #email{
+        width: 86%;
+    }
 }
 @media (max-width:575px) and (min-width:290px){
     .container{
         margin: 0 auto;
-        max-width: 500px;
+        max-width: 338px;
     }
     .header-logo {
         padding-right: 0;
@@ -914,19 +963,35 @@ footer{
         padding-left: 0;
     }
     .footer-info__header{
-        padding-left: 0;
+        padding-left: 10%;
         font-size: 33px;
         padding-bottom: 60px;
     }
     .footer-info__paragraph {
-        padding-left: 0;
+        padding-left: 10%;
         max-width: 100%;
         font-size: 23px;
     }
     .footer-info__link {
+        padding-left: 10%;
         max-width: 100%;
-        padding-left: 0;
         font-size: 23px;
+    }
+    .footer-form{
+        padding-left: 11%;
+        width: 89%;
+    }
+    #name{
+        width: 80%;
+    }
+    #email{
+        width: 80%;
+    }
+    #text{
+        width: 80%;
+    }
+    #footer-btn{
+        width: 80%;
     }
 }
 @media (max-width:290px){
